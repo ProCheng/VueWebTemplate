@@ -4,8 +4,8 @@ import instance from '@/utils/axios'
 async function send() {
   const res = await instance.get('/api/getUserInfo')
   console.log(res)
-  //const res = await axios.get('/api/getUserInfo', {})
 }
+// import '@/test/TypeScript学习'
 </script>
 
 <template>
