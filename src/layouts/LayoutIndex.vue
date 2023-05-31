@@ -3,7 +3,7 @@
 import { useRoute } from 'vue-router'
 
 const route = useRoute()
-console.log(route.meta)
+//console.log(route.meta)
 </script>
 <template>
   <div class="layout-content">

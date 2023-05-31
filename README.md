@@ -1,4 +1,4 @@
-# 一个基于 vite4+，vue3/TypeScript@latest 的项目模板
+# 一个基于 vite3+，vue3/TypeScript@latest 的项目模板
 
 ## 安装依赖
 
