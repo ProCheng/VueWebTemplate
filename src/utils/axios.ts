@@ -1,7 +1,10 @@
 import axios from 'axios'
 
-const instance = axios.create({
-  //baseURL: 'http://127.0.0.1'
+console.log(import.meta.env.VITE_API_BASEURL)
+
+const instanceAxios = axios.create({
+  timeout: 10000,
+  baseURL: import.meta.env.VITE_API_BASEURL + '/api/v1'
 })
 
-export default instance
+export default instanceAxios

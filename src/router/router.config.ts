@@ -18,6 +18,14 @@ export const routers: Array<RouteRecordRaw> = [
         // which is lazy-loaded when the route is visited.
         component: () => import('@/views/HomeView.vue'),
         meta: { title: '首页', keepAlive: false, showTab: true }
+      },
+      {
+        path: '/chat',
+        // route level code-splitting
+        // this generates a separate chunk (About.[hash].js) for this route
+        // which is lazy-loaded when the route is visited.
+        component: () => import('@/views/ChatRoom.vue'),
+        meta: { title: '聊天室', keepAlive: false, showTab: true }
       }
     ]
   }

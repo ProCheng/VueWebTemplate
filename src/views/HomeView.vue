@@ -1,8 +1,8 @@
 <script setup lang="ts">
-import instance from '@/utils/axios'
+import instanceAxios from '@/utils/axios'
 
 async function send() {
-  const res = await instance.get('/api/getUserInfo')
+  const res = await instanceAxios.get('/api/getUserInfo')
   console.log(res)
 }
 </script>
